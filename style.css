@@ -62,3 +62,26 @@
 .testimonial-author {
     font-weight: bold;
 }
+
+.membership-section{
+    padding: 40px 20px;
+}
+.membership-benefit{
+    border-style:solid;
+    border-radius: 20px;
+    border-color: #6c757d;
+    height: 200px;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.membership-benefit img{
+    width: 100px;
+    height: 100px;
+}
+.membership-steps{
+    margin-top: 20px;
+}
+.membership-steps li{
+    margin-bottom: 15px;
+}

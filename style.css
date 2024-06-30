@@ -1,0 +1,64 @@
+.navbar{
+    background-color: #68373a;
+}
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: black;
+}
+
+#links{
+    padding: 5px;
+}
+
+.event-teaser {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.event-title {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+.event-list li {
+    margin-bottom: 10px;
+}
+.view-all-btn {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.about-section {
+    padding: 40px 20px;
+}
+  
+.team-member {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.team-member h5 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+.team-member p {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+.testimonial {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.testimonial-author {
+    font-weight: bold;
+}

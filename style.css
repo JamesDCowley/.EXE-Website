@@ -85,3 +85,24 @@
 .membership-steps li{
     margin-bottom: 15px;
 }
+
+.project-card{
+    border-style:solid;
+    border-color:#6c757d;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    height: 450px;
+    text-align: center;
+    padding: 10px;
+}
+.project-card img{
+    width:200px;
+    height:200px;
+    margin-bottom: 10px;
+}
+.project-overview{
+    margin-top: 20px;
+}
+.project-overview li{
+    margin-bottom: 2px;
+}

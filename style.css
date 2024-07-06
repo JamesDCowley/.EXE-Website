@@ -86,7 +86,7 @@
     margin-bottom: 15px;
 }
 
-.project-card{
+.project-card, .event-card{
     border-style:solid;
     border-color:#6c757d;
     background-color: #f8f9fa;
@@ -105,4 +105,8 @@
 }
 .project-overview li{
     margin-bottom: 2px;
+}
+
+.events-section{
+    padding: 40px 20px;
 }

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
     fetch('events.json').then(response => response.json()).then(events => {
-        const eventContainer = document.getElementsById('events-container');
+        const eventContainer = document.getElementById('events-container');
         events.forEach(event => {
             const eventCard = document.createElement("div");
             eventCard.className = "col-md-4 event-card";

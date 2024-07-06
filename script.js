@@ -8,7 +8,10 @@ document.addEventListener('DOMContentLoaded', function(){
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title event-card-title">${event.title}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">${new Date(event.date).toDateString()}</h6>
+                  <div class="event-card-details">
+                    <span class="card-date mb-2 text-muted">${event.date}</span>
+                    <span class="card-location mb-2 text-muted">${event.location}</span>
+                </div>
                   <p class="card-text event-card-text">${event.description}</p>
                 </div>
               </div>

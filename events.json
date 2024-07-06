@@ -1,12 +1,14 @@
 [
     {
         "title": "Welcome Social",
-        "date" : "2024-08-28 ",
+        "date" : "Wed Aug 28, 6:30-8:30 PM",
+        "location" : "Ingram 4103",
         "description" : "Come eat pizza, play games, and meet new people!"
     },
     {
-        "title": "Intro to .EXE",
-        "date" : "2024-09-04 ",
+        "title": "Weekly Meeting: Intro to .EXE",
+        "date" : "Wed Sep 9, 6:30-8:30 PM",
+        "location" : "Ingram 4103",
         "description" :"Meet the officers, learn about the club, and learn about this semester's projects."
     }
 ]

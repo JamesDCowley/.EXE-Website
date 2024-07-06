@@ -86,7 +86,7 @@
     margin-bottom: 15px;
 }
 
-.project-card, .event-card{
+.project-card{
     border-style:solid;
     border-color:#6c757d;
     background-color: #f8f9fa;
@@ -107,17 +107,41 @@
     margin-bottom: 2px;
 }
 
+#events-container{
+    padding: 40px 20px;    
+}
 .events-section {
     padding: 40px 20px;
   }
 .event-card {
-    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    min-height: 300px;
+    background-color: #f8f9fa;
   }
 .event-card-title {
+    text-align: center;
+    padding: 20px 10px;
     font-size: 1.5em;
     margin-top: 15px;
   }
 .event-card-text {
     font-size: 1em;
-    color: #6c757d;
+    margin-top: 10px;
   }
+.card-date{
+    display: flex;
+    justify-content: left;
+}
+.card-location{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+.event-card-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 1em;
+}

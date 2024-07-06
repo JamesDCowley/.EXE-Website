@@ -8,6 +8,24 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+                fetch('events.json')
+                .then(response => response.json())
+                .then(events => {
+                    const eventList = document.getElementById('event-list');
+                    for(let i = 0; i < 3; i++){
+                        const event = events[i];
+                        console.log(event);
+                        const eventListItem = document.createElement('li');
+                        eventListItem.innerHTML = `
+                            <strong>${event.title}: </strong>${event.date}, ${event.location}
+                        `;
+                        eventList.appendChild(eventListItem);
+                    }
+                });
+            });
+        </script>
     </head>
 
     <body>
@@ -84,12 +102,9 @@
         <div class="container">
             <div class="event-teaser">
               <h2 class="event-title">Join us for our next event!</h2>
-              <ul class="list-unstyled event-list">
-                <li><strong>Weekly Meetings:</strong> Every Wednesday, 6:30 PM - 8:30 PM, Ingram 4103</li>
-                <li><strong>Hacktoberfest 2024: </strong> October 28, 12:00 PM - 12:00 AM</li>
-                <li><strong>Code Golf Competition:</strong> September 20, 4:00 PM - 9:00 PM</li>
+              <ul class="list-unstyled" id="event-list">
               </ul>
-              <a href="#" class="btn btn-primary view-all-btn">View All Events</a>
+              <a href="events.html" class="btn btn-primary view-all-btn">View All Events</a>
             </div>
         </div>
 

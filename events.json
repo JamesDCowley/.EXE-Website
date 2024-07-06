@@ -6,9 +6,15 @@
         "description" : "Come eat pizza, play games, and meet new people!"
     },
     {
-        "title": "Weekly Meeting: Intro to .EXE",
+        "title": "Weekly Meeting - Intro to .EXE",
         "date" : "Wed Sep 9, 6:30-8:30 PM",
         "location" : "Ingram 4103",
         "description" :"Meet the officers, learn about the club, and learn about this semester's projects."
+    },
+    {
+        "title": "Social Event - TBD",
+        "date" : "Sat Sep 14, TBD",
+        "location" : "TBD",
+        "description" :"Doing something very social with members! TBD"
     }
 ]

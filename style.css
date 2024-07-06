@@ -107,6 +107,17 @@
     margin-bottom: 2px;
 }
 
-.events-section{
+.events-section {
     padding: 40px 20px;
-}
+  }
+.event-card {
+    margin-bottom: 30px;
+  }
+.event-card-title {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+.event-card-text {
+    font-size: 1em;
+    color: #6c757d;
+  }

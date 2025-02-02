@@ -1,20 +1,20 @@
 [
     {
-        "title": "Weekly Meeting - Welcome Social",
-        "date" : "Wed Sep 4, 6:30-8:30 PM",
-        "location" : "Ingram 3207",
-        "description" : "Come eat pizza, meet the officers, and learn about the club."
+        "title": "Trivia Night",
+        "date" : "Wed Jan 29, 6:30-8:30 PM",
+        "location" : "Ingram 3105",
+        "description" : "Eat pizza, test your knowledge, and have fun!"
     },
     {
-        "title": "Weekly Meeting - USAA",
-        "date" : "Wed Sep 11, 6:30-8:30 PM",
-        "location" : "Ingram 3207",
-        "description" : "Meet USAA recruiters and learn about cybersecurity."
+        "title": "Discord Bot Workshop",
+        "date" : "Wed Feb 5, 6:30-8:30 PM",
+        "location" : "Ingram 3105",
+        "description" : "Learn how to make a Discord bot with Python!"
     },
     {
-        "title": "Social Event - TBD",
-        "date" : "Sat Sep 14, TBD",
-        "location" : "TBD",
-        "description" :"Doing something very social with members! TBD"
+        "title": "USAA Visit",
+        "date" : "Wed Feb 12, 6:30-8:30 PM",
+        "location" : "Ingram 3105",
+        "description" :"Come learn about USAA and their internship opportunities!"
     }
 ]

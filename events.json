@@ -1,15 +1,15 @@
 [
     {
-        "title": "Welcome Social",
-        "date" : "Wed Aug 28, 6:30-8:30 PM",
-        "location" : "Ingram 4103",
-        "description" : "Come eat pizza, play games, and meet new people!"
+        "title": "Weekly Meeting - Welcome Social",
+        "date" : "Wed Sep 4, 6:30-8:30 PM",
+        "location" : "Ingram 3207",
+        "description" : "Come eat pizza, meet the officers, and learn about the club."
     },
     {
-        "title": "Weekly Meeting - Intro to .EXE",
-        "date" : "Wed Sep 9, 6:30-8:30 PM",
-        "location" : "Ingram 4103",
-        "description" :"Meet the officers, learn about the club, and learn about this semester's projects."
+        "title": "Weekly Meeting - USAA",
+        "date" : "Wed Sep 11, 6:30-8:30 PM",
+        "location" : "Ingram 3207",
+        "description" : "Meet USAA recruiters and learn about cybersecurity."
     },
     {
         "title": "Social Event - TBD",
